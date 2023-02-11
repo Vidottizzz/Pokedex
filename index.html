@@ -1,31 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
     <title>Pokédex Project</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div id="card">
+      <header>
+        <div id="name-type">
+          <div id="name-num">
+            <h1 class="pokemon-name">Bulbasauro</h1>
+            <h2 class="pokemon-number">#001</h2>
+          </div>
+          <span><img src="" alt="" /> Grass</span>
+          <span class="types"><img src="" alt="" /> Poison</span>
+        </div>
+        <div id="pokemon-img">
+          <img id="background-poke" alt="" />
+          <div id="poke-first">
+            <img
+              class="pokemons"
+              src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
 
+      <div id="info-wrapper">
+        <main>
+          <div id="search">
+            <form action="">
+              <input type="text" placeholder="Name or Number" required />
+            </form>
+          </div>
 
+          <div class="buttons">
+            <button class="button btn-prev">Prev</button>
+            <button class="button btn-next">Next</button>
+          </div>
+
+          <p class="poké-info">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam ullam veniam dolore? Adipisci deserunt odio veritatis eius ullam voluptates nesciunt obcaecati minima similique quisquam. Quidem delectus itaque dolor necessitatibus sint.
+          </p>
+        </main>
+
+        <footer>
+
+       <div>
+        <img class="evo-imgs" src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png" alt=""> <span class="arrow"> --> lv</span>
+        <img class="evo-imgs" src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png" alt=""> <span class="arrow"> --> lv</span>
+        <img class="evo-imgs" src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png" alt="">
+
+      </div>
+      
+      <div>
+        <img class="evo-imgs" src="" al="">
+        
+       </div>
+        </footer>
+      </div>
     </div>
 
-    <header>
-
-    </header>
-
-    <main>
-
-    </main>
-
-    <footer>
-
-    </footer>    
-
     <script src="/script.js" type="text/javascript"></script>
-</body>
+  </body>
 </html>
