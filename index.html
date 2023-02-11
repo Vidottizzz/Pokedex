@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
       rel="stylesheet"
@@ -20,18 +17,17 @@
       <header>
         <div id="name-type">
           <div id="name-num">
-            <h1 class="pokemon-name">Bulbasauro</h1>
-            <h2 class="pokemon-number">#001</h2>
+            <h2 class="pokemon-number"></h2>
+            <h1 class="pokemon-name"></h1>
           </div>
-          <span><img src="" alt="" /> Grass</span>
-          <span class="types"><img src="" alt="" /> Poison</span>
+          
         </div>
         <div id="pokemon-img">
           <img id="background-poke" alt="" />
           <div id="poke-first">
             <img
               class="pokemons"
-              src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png"
+              src="#"
               alt=""
             />
           </div>
@@ -41,8 +37,8 @@
       <div id="info-wrapper">
         <main>
           <div id="search">
-            <form action="">
-              <input type="text" placeholder="Name or Number" required />
+            <form class="form" action="">
+              <input class="input-search" type="text" placeholder="Name or Number" required />
             </form>
           </div>
 
@@ -50,18 +46,19 @@
             <button class="button btn-prev">Prev</button>
             <button class="button btn-next">Next</button>
           </div>
-
-          <p class="poké-info">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam ullam veniam dolore? Adipisci deserunt odio veritatis eius ullam voluptates nesciunt obcaecati minima similique quisquam. Quidem delectus itaque dolor necessitatibus sint.
+         <p class="pokeinfop">Informações</p>
+          <p class="poke-info">
+  
           </p>
         </main>
 
         <footer>
 
-       <div>
-        <img class="evo-imgs" src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png" alt=""> <span class="arrow"> --> lv</span>
-        <img class="evo-imgs" src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png" alt=""> <span class="arrow"> --> lv</span>
-        <img class="evo-imgs" src="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png" alt="">
+       <div id="evolution">
+       <h3>evoluções</h3>
+         <img class="evo-imgs prev-poke" class="evo-imgs" src="#" alt=""> <span class="prev-evo"></span>
+        <img class="evo-imgs actual-poke" class="evo-imgs" src="" alt=""> <span class="curr-evo"></span>
+        <img class="evo-imgs" src="#" alt=""> <span class="next-evo"></span>
 
       </div>
       
